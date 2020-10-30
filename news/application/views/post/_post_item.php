@@ -52,7 +52,10 @@
                     <p><?php echo html_escape(character_limiter($item->summary, 130, '...')); ?></p>
                   </div>
                   <!-- /.post-content -->
-                  <div class="meta mb-0"><span class="date"><i class="jam jam-clock"></i>5 Jul 2018</span><span class="comments"><i class="jam jam-message-alt"></i><a href="#">3 Comments</a></span></div>
+                  	<div class="meta mb-0">
+					 	<?php $this->load->view("post/_post_meta", ['item' => $item]); ?>
+					</div>	
+				  
 				</div>
 
 
