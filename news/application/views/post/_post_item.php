@@ -55,6 +55,8 @@
                   <div class="meta mb-0"><span class="date"><i class="jam jam-clock"></i>5 Jul 2018</span><span class="comments"><i class="jam jam-message-alt"></i><a href="#">3 Comments</a></span></div>
 				</div>
 
+
+
 	<div class="col-sm-6 col-xs-12 item-boxed-cnt">
 		<!--Post list item-->
 		<div class="col-xs-12 post-item-boxed p0">
