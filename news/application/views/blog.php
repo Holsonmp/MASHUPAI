@@ -27,13 +27,19 @@
 endif; ?>
 
 
-<div class="wrapper light-wrapper">
-      <div class="container inner">
-        <div class="blog grid grid-view">
-          <div class="row isotope">
+	<div class="wrapper light-wrapper">
+		<div class="container inner">
+			<div class="blog grid grid-view">
+				<div class="row isotope">
 
-			
 
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
 <!-- Section: main -->
 <section id="main" class="margin-top-30">
 	<div class="container">
