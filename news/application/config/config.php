@@ -66,7 +66,7 @@ $config['uri_protocol'] = 'REQUEST_URI';
 |
 | https://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = '.html';
+$config['url_suffix'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -380,7 +380,7 @@ $config['encryption_key'] = 'mashupai985637202';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = '_session';
+$config['sess_cookie_name'] = '_session_';
 $config['sess_expiration'] = 172800;//48 hours
 $config['sess_save_path'] = APPPATH . 'session';
 $config['sess_match_ip'] = FALSE;
