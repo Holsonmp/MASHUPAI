@@ -38,15 +38,18 @@
 <?php elseif ($layout == "layout_3" || $layout == "layout_6"): ?>
 
 				<div class="item post grid-sizer col-md-6">
-                  <figure class="overlay overlay1 rounded mb-30"><a href=""> <img src="style/images/art/b1.jpg" alt="" /></a>
+                  <figure class="overlay overlay1 rounded mb-30"><a href="<?php echo generate_post_url($item); ?>"> <?php $this->load->view("post/_post_image", ['post_item' => $item, 'type' => 'image_slider']); ?></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Read More</h5>
                     </figcaption>
                   </figure>
-                  <div class="category"><a href="<?php echo generate_category_url($item->parent_category_slug, $item->category_slug); ?>" class="badge badge-pill bg-purple">Concept</a></div>
-                  <h2 class="post-title"><a href="blog-post.html">Ligula tristique quis risus eget urna mollis ornare porttitor</a></h2>
+                  <div class="category"><a href="<?php echo generate_category_url($item->parent_category_slug, $item->category_slug); ?>" class="badge badge-pill bg-green"><?php echo html_escape($item->category_name); ?></a></div>
+                  <h2 class="post-title">					
+					  <a href="<?php echo generate_post_url($item); ?>">
+						<?php echo html_escape(character_limiter($item->title, 50, '...')); ?>
+					</a></h2>
                   <div class="post-content">
-                    <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis vestibulum. Cras imperdiet nun eu dolor vestibulum ultrices diam tempus.</p>
+                    <p><?php echo html_escape(character_limiter($item->summary, 130, '...')); ?></p>
                   </div>
                   <!-- /.post-content -->
                   <div class="meta mb-0"><span class="date"><i class="jam jam-clock"></i>5 Jul 2018</span><span class="comments"><i class="jam jam-message-alt"></i><a href="#">3 Comments</a></span></div>
