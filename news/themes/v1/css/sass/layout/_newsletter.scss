@@ -1,0 +1,29 @@
+/*
+    CSS Table of Sections
+    --------------------------
+    ** newsletter_section
+    --------------------------
+
+*/
+
+/*-----------------------------
+  newsletter_section (Dark)
+-----------------------------*/
+.newsletter_section {
+  .dark-form {
+    .form-control {
+      background-color: rgba($white-color, .05);
+      border: 0;
+      color: $white-color !important;
+      &::placeholder {
+        color: $currency-p-color;
+      }
+    }
+  }
+  .button--click {
+    .btn-token {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,341 @@
+/*
+    CSS Table of Sections
+    --------------------------
+    ** Conact Sass Products
+    --------------------------
+    ** try it
+    --------------------------
+    ** connect_us
+    --------------------------
+    ** gbo_contact
+    --------------------------
+    ** need_help_sec
+    --------------------------
+    ** help__ch
+    --------------------------
+    ** contact__workspace
+    --------------------------
+
+*/
+
+/*-----------------------------
+  Conact Sass Products
+-----------------------------*/
+.simplecontact_section {
+  position: relative;
+  overflow: hidden;
+  .circle-ripple {
+    position: absolute;
+    left: 43.5%;
+    top: 20%;
+    z-index: -1;
+    pointer-events: none;
+    @include maxSmall {
+      left: 39.5%;
+    }
+    @include maxMobile {
+      left: 23.5%;
+    }
+    .ripple {
+      position: absolute;
+      border: 3px solid $border-color;
+      width: 200px;
+      height: 200px;
+      border-radius: 500px;
+    }
+    .ripple-1 {
+      @include prefixer(
+        animation,
+        circleRipple 3s mashupai linear,
+        webkit moz o ms
+      );
+    }
+    .ripple-2 {
+      @include prefixer(
+        animation,
+        circleRipple 3s mashupai linear 0.75s,
+        webkit moz o ms
+      );
+    }
+    .ripple-3 {
+      @include prefixer(
+        animation,
+        circleRipple 3s mashupai linear 1.5s,
+        webkit moz o ms
+      );
+    }
+  }
+}
+
+/*-----------------------------
+  Try it
+-----------------------------*/
+.tryit_now {
+  background-color: #381840;
+  position: relative;
+  overflow: hidden;
+  margin-top: -6rem;
+  .title_sections {
+    p {
+      color: rgba($white-color, 0.5);
+      margin-bottom: 0;
+    }
+  }
+  &:before {
+    content: "";
+    background-image: url("../img/shpaeboxes.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+    @include maxMobile {
+      background-size: cover;
+    }
+  }
+}
+
+/*-----------------------------
+  connect_us
+-----------------------------*/
+.connect_us {
+  background-color: rgba(#381840, 0.05);
+  margin-top: 5rem;
+  .title_sections {
+    margin-bottom: 0;
+  }
+  .ripple {
+    &:active,
+    &:focus {
+      &:before {
+        background: $orange-red-color;
+        border-radius: 8px;
+        content: "";
+        display: block;
+        height: 100%;
+        opacity: 0.25;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        animation: ripple 1s cubic-bezier(0.29, -0.01, 0.17, 0.95);
+      }
+    }
+  }
+}
+
+/*-----------------------------
+  contact_section
+-----------------------------*/
+.contact_section {
+  position: relative;
+  margin-top: 15rem;
+  @include maxMobile {
+    margin-top: 6.25rem;
+  }
+  img {
+    position: absolute;
+    top: -40%;
+    z-index: -1;
+    @include maxMobile {
+      top: -20%;
+    }
+  }
+  .dark-form {
+    .form-control {
+      background-color: rgba($white-color, 0.05);
+      border: 0;
+      color: $white-color !important;
+      &::placeholder {
+        color: $currency-p-color;
+      }
+    }
+    textarea {
+      padding: 1.25rem;
+      &:focus,
+      &:active {
+        outline: 0;
+        @include prefixer(box-shadow, none, webkit moz o ms);
+      }
+    }
+  }
+  .custom-control {
+    margin-bottom: 0.5rem;
+    .custom-control-input {
+      border: 0;
+      &:checked {
+        ~ .custom-control-label {
+          &::before {
+            background-color: $magenta-color;
+            border: 0;
+            @include prefixer(
+              box-shadow,
+              0px 0px 20px 0px rgba(253, 79, 254, 0.4),
+              webkit moz o ms
+            );
+          }
+        }
+      }
+    }
+    .custom-control-label {
+      color: $white-color;
+      font-size: 13px;
+      &::before {
+        top: 0.1rem;
+      }
+      &::after {
+        top: 0.1rem;
+      }
+    }
+  }
+  .button--click {
+    .btn-token {
+      width: 100%;
+      margin: 0;
+      padding: 1.15rem;
+    }
+  }
+}
+
+/*-----------------------------
+  gbo_contact
+-----------------------------*/
+.gbo_contact {
+  background-image: url("../img/1520x695.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  background-position: 50% 59%;
+  padding: 6.25rem 0;
+  margin-top: 1.85rem;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  @include maxMobile {
+    margin-top: 0.5rem;
+  }
+  .overlay {
+    @include overlay;
+    background-color: rgba($dark-color, 0.3);
+    border-radius: 12px;
+  }
+}
+
+/*-----------------------------
+  need_help
+-----------------------------*/
+.need_help_sec {
+  .block_help {
+    position: relative;
+    overflow: hidden;
+    background-color: #040309;
+    border-radius: 12px;
+    padding: 3rem;
+    z-index: 1;
+    &:before {
+      content: "";
+      background-image: url("../img/hosting/light.png");
+      background-repeat: no-repeat;
+      background-size: 140%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 0.14;
+      height: 100%;
+      width: 100%;
+      background-position: 98% 96%;
+      z-index: -1;
+      @include maxMobile {
+        background-size: 180%;
+      }
+    }
+  }
+  .item_help {
+    margin-top: 2rem;
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+  .img_help {
+    width: 300px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+/*-----------------------------
+  help__ch
+-----------------------------*/
+.help__ch {
+  position: relative;
+  .title_sections {
+    margin-bottom: 2.5rem;
+  }
+  .button__super {
+    .btn {
+      width: 140px;
+      margin: 0 0.625rem;
+    }
+  }
+  .back__img {
+    pointer-events: none;
+    @include maxMobile {
+      display: none;
+    }
+    .part__1 {
+      position: absolute;
+      left: -70%;
+      top: -20%;
+      z-index: -1;
+    }
+    .part__2 {
+      position: absolute;
+      top: 40%;
+      right: -24%;
+      z-index: -1;
+    }
+  }
+}
+
+/*-----------------------------
+  contact__workspace
+-----------------------------*/
+
+.contact__workspace {
+  background-color: #12161b;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/workspace/bg-about.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    opacity: 0.25;
+  }
+  .btn {
+    background-color: $white-color;
+    color: $dark-color;
+    &::before {
+      background: $orange-red-color;
+      color: $white-color;
+    }
+  }
+}

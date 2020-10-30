@@ -1,0 +1,843 @@
+/*
+    CSS Table of Sections
+    --------------------------
+    ** demo_1
+    --------------------------
+    ** demo_2
+    --------------------------
+    ** demo_3
+    --------------------------
+    ** demo_4
+    --------------------------
+    ** banner_demo4
+    --------------------------
+    ** banner_demo5
+    --------------------------
+    ** banner_demo6
+    --------------------------
+    ** banner_demo7
+    --------------------------
+    ** banner_demo8
+    --------------------------
+    ** banner_title
+    --------------------------
+    ** demo__charity
+    --------------------------
+    ** demo__workspace
+    --------------------------
+    ** demo__software
+    --------------------------
+
+*/
+
+/*-----------------------------
+  demo_1
+-----------------------------*/
+.demo_1 {
+  &.banner_section {
+    background: rgb(254, 248, 240);
+    background: -moz-linear-gradient(
+      360deg,
+      rgba(254, 248, 240, 0) 0%,
+      rgba(254, 248, 240, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      360deg,
+      rgba(254, 248, 240, 0) 0%,
+      rgba(254, 248, 240, 1) 100%
+    );
+    background: linear-gradient(
+      360deg,
+      rgba(254, 248, 240, 0) 0%,
+      rgba(254, 248, 240, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fef8f0",endColorstr="#fef8f0",GradientType=1);
+    height: 100%;
+    padding-top: 10rem;
+    @include maxMobile {
+      padding-top: 6rem;
+    }
+    .banner_title {
+      margin-bottom: 30px;
+      h1 {
+        color: $dark-color;
+      }
+      p {
+        color: $gray-color;
+      }
+    }
+    .image_product {
+      position: relative;
+      img {
+        width: 90%;
+        z-index: 1;
+        position: relative;
+      }
+      &:before {
+        content: "";
+        background-image: url("../img/shape-before-web.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 150px;
+        height: 100%;
+        position: absolute;
+        top: -5%;
+        right: 0;
+        z-index: 0;
+      }
+    }
+  }
+}
+/*-----------------------------
+  demo_2
+-----------------------------*/
+.demo_2 {
+  &.banner_section {
+    background-color: #0b2238;
+    height: 100vh;
+    padding-top: 10rem;
+    position: relative;
+    overflow: hidden;
+    @include maxMobile {
+      padding-top: 6rem;
+      height: 100%;
+    }
+    .fixed_overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .banner_title {
+      h1 {
+        color: $beiget-color;
+      }
+      p {
+        color: $light-color;
+      }
+    }
+  }
+}
+/*-----------------------------
+  demo_3
+-----------------------------*/
+.demo_3 {
+  &.banner_section {
+    background-color: #381840;
+    position: relative;
+    overflow: hidden;
+    height: 820px;
+    padding: 10rem 0;
+    @include maxMobile {
+      height: 100%;
+      padding-bottom: 3rem;
+      padding-top: 6rem;
+    }
+    .banner_title {
+      p {
+        color: rgba($white-color, 0.5);
+      }
+    }
+    &:before {
+      content: "";
+      background-image: url("../img/shpaeboxes.svg");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 10%;
+      left: 37%;
+      height: 100%;
+      width: 60%;
+      background-size: contain;
+      @include maxMobile {
+        background-size: cover;
+        width: 100%;
+      }
+    }
+    &::after {
+      content: "";
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='155.169' height='337.197' viewBox='0 0 155.169 337.197'%3E%3Cpath id='Subtraction_8' data-name='Subtraction 8' d='M-15081.832-6700H-15237v-337.2l108.524,304.006a50.185,50.185,0,0,0,46.645,33.188Z' transform='translate(15237.001 7037.196)' fill='%23fff'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      height: 30%;
+      width: 100%;
+      background-size: contain;
+      @include maxMobile {
+        display: none;
+      }
+    }
+    .app_smartphone {
+      .btn--app {
+        .icon {
+          background-color: transparent;
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+  .img--elements {
+    img {
+      position: absolute;
+      top: -2%;
+      left: 0;
+      width: 923px;
+    }
+    @include maxMobile {
+      display: none;
+    }
+  }
+}
+/*-----------------------------
+  demo_4
+-----------------------------*/
+.demo_4 {
+  background-color: $currency-d-color !important;
+  height: 100% !important;
+  @include prefixer(
+    background,
+    radial-gradient(
+      circle,
+      rgba(47, 2, 71, 1) 0%,
+      rgba(47, 2, 71, 0) 83%,
+      rgba(41, 1, 62, 1) 100%
+    ),
+    webkit moz o ms
+  );
+  .banner_title {
+    .offer {
+      width: max-content;
+      padding: 0.85rem 1.35rem;
+      border-radius: 15px;
+      background-color: rgba($white-color, 0.1);
+      margin: auto;
+    }
+    p {
+      color: $currency-p-color !important;
+    }
+  }
+  .button--click {
+    .avaliable {
+      display: inline-block;
+      color: $white-color;
+      font-size: 14px;
+      margin-left: 0.75rem;
+    }
+  }
+  .img__head {
+    .illy {
+      width: 100%;
+      margin-top: -200px;
+      @include maxMobile {
+        margin-top: -3rem;
+      }
+    }
+  }
+  .Countdown-timer {
+    .item {
+      display: inline-block;
+      text-align: center;
+      margin: 0 1.5rem;
+      span {
+        font-size: 50px;
+        font-weight: 500;
+        color: $white-color;
+      }
+      p {
+        color: $currency-p-color;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+    }
+    .cuot {
+      position: absolute;
+      font-size: 50px;
+      color: $white-color;
+    }
+  }
+}
+/*-----------------------------
+  banner_demo4
+-----------------------------*/
+.banner_demo4 {
+  background-color: $white-color !important;
+  @include prefixer(background, none, webkit moz o ms);
+  .banner_title {
+    h1 {
+      font-weight: 500;
+    }
+  }
+  .item_sm-about {
+    margin: auto;
+    p {
+      width: 60%;
+      color: $gray-color;
+    }
+    .btn-primary {
+      min-width: 140px;
+      padding: 0.85rem 1.6rem;
+      text-align: center;
+      display: inline-flex;
+      justify-content: center;
+    }
+  }
+  .img_head_uniqe {
+    position: relative;
+    .bb_img {
+      position: relative;
+      img {
+        object-fit: cover;
+        height: 640px;
+        width: 100%;
+        @include maxSmall {
+          height: 450px;
+        }
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10%;
+      left: 40%;
+      width: 123px;
+      height: 123px;
+      background-image: url("../img/best.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 5;
+    }
+
+    .list_aboutcompany {
+      background-color: $sea-color;
+      padding: 2rem;
+      position: absolute;
+      bottom: -10%;
+      right: 10%;
+      .item_xq {
+        margin-bottom: 1rem;
+        span {
+          color: rgba($white-color, 0.5);
+          font-size: 13px;
+          font-weight: 400;
+        }
+        h3 {
+          color: $white-color;
+          font-size: 15px;
+          margin-bottom: 0;
+          font-weight: 400;
+          margin-top: 0.5rem;
+        }
+        a {
+          color: $white-color;
+          display: block;
+        }
+      }
+    }
+  }
+}
+/*-----------------------------
+  banner_demo5
+-----------------------------*/
+.banner_demo5 {
+  height: 100vh !important;
+  .banner_title {
+    h1 {
+      color: $white-color !important;
+      @include maxMobile {
+        font-size: 2.125em;
+      }
+    }
+    p {
+      color: rgba($white-color, 0.9) !important;
+    }
+  }
+  .Background {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    &:after {
+      content: "";
+      @include overlay;
+      top: auto;
+      bottom: 0;
+      height: 200px;
+      @include prefixer(
+        background,
+        linear-gradient(to top, #000000, rgba(35, 55, 77, 0)),
+        webkit moz o ms
+      );
+    }
+  }
+}
+/*-----------------------------
+  banner_demo6
+-----------------------------*/
+.banner_demo6 {
+  background-image: url("../img/hosting/bg-hosting.png") !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100vh !important;
+  .banner_title {
+    .offer {
+      padding: 0.85rem 1.45rem;
+      border-radius: 12px;
+      background-color: rgba($white-color, 0.1);
+      width: max-content;
+    }
+    .prices {
+      span {
+        display: block;
+        font-size: 14px;
+        color: $white-color;
+        margin-bottom: 0.3rem;
+      }
+      p {
+        font-size: 25px;
+        font-weight: 600;
+        color: $white-color;
+      }
+    }
+  }
+  .btn_watch {
+    border-radius: 12px;
+    padding: 0.85rem 1.4rem;
+    border: 1px solid rgba($white-color, 0.25);
+    color: $white-color;
+    .tio {
+      vertical-align: text-top;
+      margin-right: 0.2rem;
+    }
+  }
+}
+/*-----------------------------
+  banner_demo7
+-----------------------------*/
+.banner_demo7 {
+  background: $beiget-color !important;
+  border-radius: 12px !important;
+  margin-top: 5.625rem;
+  padding-top: 0 !important;
+  padding-bottom: 16rem;
+  width: 93%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  @include maxMobile {
+    padding-bottom: 2rem;
+  }
+  .btn-video {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: $dark-color;
+    padding: 0;
+    @include prefixer(transition, 0.3s, webkit moz o ms);
+    &::after {
+      content: "";
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      display: block;
+      z-index: -1;
+      background: rgba($dark-color, 0.1);
+      border-radius: 50%;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      display: block;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background: rgba($dark-color, 0.1);
+      @include prefixer(
+        animation,
+        pulseRipple 2.5s ease-in-out mashupai,
+        webkit moz o ms
+      );
+    }
+    &:focus {
+      background-color: $dark-color;
+    }
+    .tio {
+      font-size: 24px;
+      color: $white-color;
+    }
+  }
+  .ill_05 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+/*-----------------------------
+  banner_demo8
+-----------------------------*/
+.banner_demo8 {
+  background: $white-color !important;
+  position: relative;
+  overflow: hidden;
+  .subscribe_phone {
+    .btn_app {
+      background-color: rgba($dark-color, 0.13);
+      border-radius: 8px;
+      color: $white-color;
+      width: 100%;
+      &:hover {
+        background-color: $dark-color;
+      }
+    }
+  }
+  .ill_appMobile {
+    position: relative;
+    z-index: 0;
+    .ill_app {
+      width: 320px;
+      display: flex;
+      margin: auto;
+      @include maxMobile {
+        width: 280px;
+      }
+    }
+    .ill_bg {
+      position: absolute;
+      top: 15%;
+      right: -15%;
+      z-index: -1;
+      @include maxMobile {
+        width: 100%;
+      }
+    }
+    .ill_user {
+      position: absolute;
+      top: -5%;
+      right: 5%;
+      @include maxMobile {
+        right: -5%;
+        top: 5%;
+        width: 100%;
+      }
+    }
+    .try_it {
+      position: absolute;
+      bottom: 15%;
+      right: 40%;
+      @include maxMobile {
+        right: 30%;
+      }
+    }
+  }
+}
+/*-----------------------------
+  banner_title
+-----------------------------*/
+.banner_title {
+  h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.875rem;
+  }
+}
+
+/*-----------------------------
+  demo__charity
+-----------------------------*/
+.demo__charity {
+  padding-top: 7.5rem !important; //120px
+  .btn_vdo_default {
+    border: 1px solid$border-color;
+    font-size: 16px;
+    svg {
+      vertical-align: middle;
+      width: 24px;
+      path {
+        fill: $orange-red-color;
+      }
+    }
+    &:hover {
+      background-color: rgba($orange-red-color, 0.05);
+      color: $orange-red-color;
+      border-color: transparent;
+    }
+  }
+}
+
+/*-----------------------------
+  demo__workspace
+-----------------------------*/
+.demo__workspace {
+  background-color: rgba(#58d5d3, 0.09);
+  position: relative;
+  height: 100%;
+  &::before {
+    content: "";
+    background: url(../img/workspace/banner-abstract.png);
+    left: 0;
+    top: -10%;
+    width: 100%;
+    background-size: 98%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+    @include maxSmall {
+      background-size: cover;
+    }
+  }
+  .block__srarch {
+    background-color: $white-color;
+    border-radius: 8px;
+    padding: 2.5rem 1.875rem;
+    .title__search {
+      margin-bottom: 1.875rem;
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: $dark-color;
+        margin-bottom: 0.625rem;
+      }
+      p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: $gray-color;
+      }
+    }
+    .btn__search {
+      width: 100%;
+      border-radius: 8px;
+      background-color: $orange-red-color;
+      font-size: 15px;
+      color: $white-color;
+      padding: 1.1rem;
+      margin-top: 0.625rem;
+    }
+  }
+  .bg__cover_office {
+    margin-top: -40vh;
+    .img__off {
+      img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+      }
+    }
+    .item__conatct {
+      margin-top: -186px;
+      .item__top {
+        background-color: #12161b;
+        padding: 2.5rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        h3 {
+          font-size: 20px;
+          color: $white-color;
+          margin-bottom: 0.625rem;
+          font-weight: 500;
+        }
+        p {
+          color: $white-color;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 0;
+        }
+      }
+      .item__bottom {
+        background-color: $white-color;
+        padding: 1.875rem;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        .person__peo {
+          margin-bottom: 1.25rem;
+          img {
+            width: 45px;
+            height: 45px;
+            object-fit: cover;
+            margin-right: 0.938rem;
+            border-radius: 50%;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*-----------------------------
+  demo__software
+-----------------------------*/
+.demo__software {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+  @include maxMobile {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  &::before {
+    content: "";
+    background-image: url("../img/software/bg-soft.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    max-width: 1070px;
+    height: 820px;
+    top: 0;
+    @include maxMobile {
+      background-size: cover;
+    }
+    @include minSmall {
+      background-size: cover;
+    }
+  }
+  .banner_title {
+    .offer {
+      padding: 0.85rem 1.45rem;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+      width: max-content;
+      span {
+        color: $white-color;
+        &:last-child {
+          color: #22025f;
+        }
+      }
+    }
+    p {
+      color: rgba($white-color, 0.85);
+    }
+  }
+  .element_ui {
+    @include maxMobile {
+      display: none;
+    }
+    .item {
+      img {
+        border-radius: 12px;
+      }
+      &:first-of-type {
+        img {
+          width: 248px;
+          height: 323px;
+          position: absolute;
+          top: 30px;
+          left: 280px;
+          z-index: 2;
+          @include prefixer(
+            box-shadow,
+            40px 30px 50px 0px rgba(11, 34, 56, 0.07),
+            webkit moz o ms
+          );
+          @include minSmall {
+            left: 20px;
+          }
+          @include minMedium {
+            left: 120px;
+          }
+          @include minLarge {
+            left: 280px;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        img {
+          width: 248px;
+          height: 323px;
+          position: absolute;
+          top: 30px;
+          right: -240px;
+          @include prefixer(
+            box-shadow,
+            0 30px 50px 0px rgba(11, 34, 56, 0.07),
+            webkit moz o ms
+          );
+          @include minSmall {
+            right: 170px;
+          }
+          @include minMedium {
+            right: -170px;
+          }
+          @include minLarge {
+            right: -240px;
+          }
+        }
+      }
+      &:nth-of-type(3) {
+        img {
+          width: 405px;
+          height: 323px;
+          position: absolute;
+          bottom: -265px;
+          left: 120px;
+          @include prefixer(
+            box-shadow,
+            0 0 50px 0px rgba(11, 34, 56, 0.07),
+            webkit moz o ms
+          );
+          @include minSmall {
+            bottom: -352px;
+            left: 580px;
+          }
+          @include minMedium {
+            bottom: -180px;
+            left: 120px;
+          }
+          @include minLarge {
+            bottom: -265px;
+          }
+        }
+      }
+      &:nth-of-type(4) {
+        img {
+          width: 248px;
+          height: 323px;
+          position: absolute;
+          bottom: -265px;
+          right: -240px;
+          z-index: -1;
+          @include prefixer(
+            box-shadow,
+            0 30px 50px 0px rgba(11, 34, 56, 0.07),
+            webkit moz o ms
+          );
+          @include minSmall {
+            display: none;
+          }
+          @include minMedium {
+            display: none;
+          }
+          @include minLarge {
+            display: block;
+          }
+        }
+      }
+    }
+    &::before {
+      content: "";
+      background-image: url("../img/software/point-bg.svg");
+      width: 682px;
+      position: absolute;
+      bottom: -80%;
+      height: 332px;
+      z-index: -2;
+    }
+  }
+}
