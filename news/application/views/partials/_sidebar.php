@@ -1,6 +1,17 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 <aside class="sidebar">
+<div class="sidebox widget">
+              <h3 class="widget-title">Search</h3>
+              <form class="search-form fields-white">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search something">
+                </div>
+                <!-- /.form-group -->
+              </form>
+              <!-- /.search-form -->
+            </div>
+            <!-- /.widget -->
 
     <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "sidebar_top"]); ?>
 
