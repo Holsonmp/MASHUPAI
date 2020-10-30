@@ -71,9 +71,9 @@ endif; ?>
           <aside class="col-lg-4 sidebar">
             <div class="sidebox widget">
               <h3 class="widget-title">Search</h3>
-              <form class="search-form fields-white" action="<?pho echo base_url();?>search" method="post">
+              <form class="search-form fields-white">
                 <div class="form-group">
-                  <input type="search" class="form-control" name="search" placeholder="Search something">
+                  <input type="text" class="form-control" placeholder="Search something">
                 </div>
                 <!-- /.form-group -->
               </form>
