@@ -40,7 +40,7 @@
 				<div class="item post grid-sizer col-md-6">
                   <figure class="overlay overlay1 rounded mb-30"><a href="<?php echo generate_post_url($item); ?>"> <?php $this->load->view("post/_post_image", ['post_item' => $item, 'type' => 'image_slider']); ?></a>
                     <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
+                      <h5 class="from-top mb-0"><?php echo html_escape(trans("readmore")); ?></h5>
                     </figcaption>
                   </figure>
                   <div class="category"><a href="<?php echo generate_category_url($item->parent_category_slug, $item->category_slug); ?>" class="badge badge-pill bg-green"><?php echo html_escape($item->category_name); ?></a></div>
