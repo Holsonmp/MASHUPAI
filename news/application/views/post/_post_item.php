@@ -38,12 +38,12 @@
 <?php elseif ($layout == "layout_3" || $layout == "layout_6"): ?>
 
 				<div class="item post grid-sizer col-md-6">
-                  <figure class="overlay overlay1 rounded mb-30"><a href="#"> <img src="style/images/art/b1.jpg" alt="" /></a>
+                  <figure class="overlay overlay1 rounded mb-30"><a href=""> <img src="style/images/art/b1.jpg" alt="" /></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Read More</h5>
                     </figcaption>
                   </figure>
-                  <div class="category"><a href="#" class="badge badge-pill bg-purple">Concept</a></div>
+                  <div class="category"><a href="<?php echo generate_category_url($item->parent_category_slug, $item->category_slug); ?>" class="badge badge-pill bg-purple">Concept</a></div>
                   <h2 class="post-title"><a href="blog-post.html">Ligula tristique quis risus eget urna mollis ornare porttitor</a></h2>
                   <div class="post-content">
                     <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis vestibulum. Cras imperdiet nun eu dolor vestibulum ultrices diam tempus.</p>
