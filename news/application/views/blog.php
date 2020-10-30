@@ -33,7 +33,7 @@ endif; ?>
 				<div class="row isotope">
 
 				<div class="item post grid-sizer col-md-6 col-lg-4">
-              <figure class="overlay overlay1 rounded mb-30"><a href="#"> <img src="style/images/art/b1.jpg" alt="" /></a>
+              <figure class="overlay overlay1 rounded mb-30"><a href="#"> <img src="themes/style/images/art/b1.jpg" alt="" /></a>
                 <figcaption>
                   <h5 class="from-top mb-0">Read More</h5>
                 </figcaption>
