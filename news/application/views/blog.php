@@ -34,6 +34,7 @@ endif; ?>
           <div class="col-lg-8">
             <div class="blog grid grid-view">
               <div class="row isotope">
+
                 <div class="item post grid-sizer col-md-6">
                   <figure class="overlay overlay1 rounded mb-30"><a href="#"> <img src="style/images/art/b1.jpg" alt="" /></a>
                     <figcaption>
@@ -47,7 +48,8 @@ endif; ?>
                   </div>
                   <!-- /.post-content -->
                   <div class="meta mb-0"><span class="date"><i class="jam jam-clock"></i>5 Jul 2018</span><span class="comments"><i class="jam jam-message-alt"></i><a href="#">3 Comments</a></span></div>
-                </div>
+				</div>
+				
               </div>
               <!-- /.row -->
             </div>
