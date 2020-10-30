@@ -16,7 +16,6 @@
    <li><a href="http://marilys.co/">Marilys</a></li>
    <li><a href="#CONTACT">Contact</a></li>
   </ul>
-         
    <div class="extra-text visible-xs"> 
    <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
     
