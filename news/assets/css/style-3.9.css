@@ -1221,7 +1221,7 @@ img {
 }
 
 .home-slider-boxed-item .item-info .title a {
-    color: #fff;
+    color: #fff!important;
 }
 
 .home-slider-boxed-item .post-meta {

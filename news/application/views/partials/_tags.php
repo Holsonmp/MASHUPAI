@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 <!--Partial: Tags-->
-<div class="">
+<div class="widget-title">
     <h4 class="title "><?php echo html_escape(trans("tags")); ?></h4>
 </div>
 <div class="col-sm-12 widget-body">
