@@ -27,32 +27,8 @@
 endif; ?>
 
 
-	<div class="wrapper light-wrapper">
-		<div class="container inner">
-			<div class="blog grid grid-view">
-				<div class="row isotope">
 
-				<div class="item post grid-sizer col-md-6 col-lg-4">
-              <figure class="overlay overlay1 rounded mb-30"><a href="#"> <img src="themes/style/images/art/b1.jpg" alt="" /></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">Read More</h5>
-                </figcaption>
-              </figure>
-              <div class="category"><a href="#" class="badge badge-pill bg-purple">Concept</a></div>
-              <h2 class="post-title"><a href="blog-post.html">Ligula tristique quis risus eget urna mollis ornare porttitor</a></h2>
-              <div class="post-content">
-                <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis vestibulum. Cras imperdiet nun eu dolor vestibulum ultrices diam tempus.</p>
-              </div>
-              <!-- /.post-content -->
-              <div class="meta mb-0"><span class="date"><i class="jam jam-clock"></i>5 Jul 2018</span><span class="comments"><i class="jam jam-message-alt"></i><a href="#">3 Comments</a></span></div>
-            </div>
-
-
-				</div>
-			</div>
-		</div>
-	</div>
-
+	
 <!-- Section: main -->
 <section id="main" class="margin-top-30">
 	<div class="container">
