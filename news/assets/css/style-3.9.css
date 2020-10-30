@@ -1630,13 +1630,11 @@ img {
 }
 
 .widget-title .title {
-    font-size: 14px;
     font-weight: 500;
     margin: 0;
-    text-transform: uppercase;
     position: relative;
     padding-bottom: 10px;
-    border-bottom: 2px solid #f1f1f1;
+    border-bottom: 4px solid #efefef;
 }
 
 .widget-title .title::after {
