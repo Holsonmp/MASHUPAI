@@ -184,7 +184,7 @@
 								<i class="icon-linkedin"></i>
 								<span class="hidden-sm">Linkedin</span>
 							</a>
-
+							
 							<a href="javascript:void(0)"
 							   onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo lang_base_url() . html_escape($post->title_slug); ?>&amp;media=<?php echo base_url() . html_escape($post->image_big); ?>', 'Share This Post', 'width=640,height=450');return false"
 							   class="btn-share share pinterest">
