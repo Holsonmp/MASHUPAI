@@ -1,4 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="space80"></div>
+
 
 <!-- Section: main -->
 <section id="main">
@@ -23,7 +25,7 @@
 				</ol>
 			</div>
 
-			<div class="col-sm-12 col-md-8">
+			<div class="col-lg-8">
 				<div class="content">
 
 					<div class="post-content">
@@ -184,7 +186,7 @@
 								<i class="icon-linkedin"></i>
 								<span class="hidden-sm">Linkedin</span>
 							</a>
-							
+
 							<a href="javascript:void(0)"
 							   onclick="window.open('http://pinterest.com/pin/create/button/?url=<?php echo lang_base_url() . html_escape($post->title_slug); ?>&amp;media=<?php echo base_url() . html_escape($post->image_big); ?>', 'Share This Post', 'width=640,height=450');return false"
 							   class="btn-share share pinterest">
@@ -193,7 +195,6 @@
 							</a>
 
 						</div>
-
 						<?php if ($general_settings->emoji_reactions == 1): ?>
 							<div class="col-sm-12 col-xs-12">
 								<div class="row">
