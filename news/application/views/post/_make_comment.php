@@ -12,6 +12,22 @@
 		<div id="message-comment-result" class="message-comment-result"></div>
 	</form>
 <?php else: ?>
+	<form class="comment-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name*">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email*">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Website">
+          </div>
+          <div class="form-group">
+            <textarea name="textarea" class="form-control" rows="5" placeholder="Enter your comment here..."></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+		</form>
+			
 	<form id="make_comment">
 		<input type="hidden" name="parent_id" value="0">
 		<input type="hidden" name="user_id" value="0">
