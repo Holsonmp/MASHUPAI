@@ -23,7 +23,7 @@
 				</ol>
 			</div>
 
-			<div class="col-sm-12 col-md-8">
+			<div class="col-lg-8">
 				<div class="content">
 
 					<div class="post-content">
