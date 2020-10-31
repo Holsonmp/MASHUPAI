@@ -1,4 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="space80"></div>
+
 
 <!-- Section: main -->
 <section id="main">
@@ -23,7 +25,7 @@
 				</ol>
 			</div>
 
-			<div class="col-sm-12 col-md-8">
+			<div class="col-lg-8">
 				<div class="content">
 
 					<div class="post-content">
@@ -193,7 +195,6 @@
 							</a>
 
 						</div>
-
 						<?php if ($general_settings->emoji_reactions == 1): ?>
 							<div class="col-sm-12 col-xs-12">
 								<div class="row">
