@@ -8,7 +8,7 @@
       <!-- /.container -->
 	</div>
 <!-- Section: main -->
-<section id="main">
+<section id="">
 	<div class="container">
 		<div class="row">
 
