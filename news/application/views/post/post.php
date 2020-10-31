@@ -195,7 +195,6 @@
 							</a>
 
 						</div>
-
 						<?php if ($general_settings->emoji_reactions == 1): ?>
 							<div class="col-sm-12 col-xs-12">
 								<div class="row">
