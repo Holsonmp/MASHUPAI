@@ -1,8 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<div class="wrapper gray-wrapper">
-      <div class="container inner">
+
 <?php if (auth_check()): ?>
-	<form id="make_comment_registered" class="comment-form"">
+	<form id="make_comment_registered">
 		<input type="hidden" name="parent_id" value="0">
 		<input type="hidden" name="user_id" value="<?php echo user()->id; ?>">
 		<input type="hidden" name="post_id" value="<?php echo $post->id; ?>">
@@ -13,7 +12,7 @@
 		<div id="message-comment-result" class="message-comment-result"></div>
 	</form>
 <?php else: ?>
-	<form id="make_comment" class="comment-form"">
+	<form id="make_comment">
 		<input type="hidden" name="parent_id" value="0">
 		<input type="hidden" name="user_id" value="0">
 		<input type="hidden" name="post_id" value="<?php echo $post->id; ?>">
@@ -38,5 +37,3 @@
 		<div id="message-comment-result" class="message-comment-result"></div>
 	</form>
 <?php endif; ?>
-</div>
-</div>
