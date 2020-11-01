@@ -1,4 +1,12 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="wrapper light-wrapper page-title-wrapper">
+		<div class="space80"></div>
+      	<div class="container inner text-center">
+        <h1 class="page-title"><?php echo html_escape(trans("search")); ?></h1>
+        <p class="lead"><?php echo html_escape($q); ?></p>
+      </div>
+      <!-- /.container -->
+	
 
 <!-- Section: main -->
 <section id="main">
@@ -19,9 +27,6 @@
                 <div class="col-xs-12 col-sm-12 col-md-8">
 
                     <div class="content">
-                        <h1 class="page-title"> <?php echo html_escape(trans("search")); ?>
-                            : <?php echo html_escape($q); ?></h1>
-
                         <!-- posts -->
                         <div class="col-xs-12 col-sm-12 posts <?php echo ($layout == "layout_3" || $layout == "layout_6") ? 'p-0 posts-boxed' : ''; ?>">
                             <div class="row">
@@ -84,4 +89,4 @@
     </div>
 </section>
 <!-- /.Section: main -->
-
+</div>
