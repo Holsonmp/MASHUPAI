@@ -18,36 +18,36 @@
 
 					<div class="form_account">
 
-              <div class="form-row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label>Email / Username</label>
-                        <input type="email" class="form-control" placeholder="E-mail / Username" />
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group mb-1 --password" id="show_hide_password">
-                        <label>Password</label>
-                        <div class="input-group">
-                          <input type="password" class="form-control" data-toggle="password" placeholder="+6 Characters"
-                            required="" />
-                          <div class="input-group-prepend hide_show">
-                            <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">Forgot Passowrd?</a>
-                    </div>
-                    <div class="col-12 mt-4">
-                      <a href="#" class="btn rounded-6 btn_xl_primary btn_login effect-letter">Sign in</a>
-                      <a href="#" class="btn mt-3 font-s-15 c-dark text-center w-100">Create new account</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="form-row">
+							<div class="col-12">
+							<div class="row">
+								<div class="col-md-12">
+								<div class="form-group">
+									<label>Email / Username</label>
+									<input type="email" class="form-control" placeholder="E-mail / Username" />
+								</div>
+								</div>
+								<div class="col-md-12">
+								<div class="form-group mb-1 --password" id="show_hide_password">
+									<label>Password</label>
+									<div class="input-group">
+									<input type="password" class="form-control" data-toggle="password" placeholder="+6 Characters"
+										required="" />
+									<div class="input-group-prepend hide_show">
+										<a href=""><span class="input-group-text tio hidden_outlined"></span></a>
+									</div>
+									</div>
+								</div>
+								<a href="#" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">Forgot Passowrd?</a>
+								</div>
+								<div class="col-12 mt-4">
+								<a href="#" class="btn rounded-6 btn_xl_primary btn_login effect-letter">Sign in</a>
+								<a href="#" class="btn mt-3 font-s-15 c-dark text-center w-100">Create new account</a>
+								</div>
+							</div>
+							</div>
+						</div>
+						</div>
           
 
 
