@@ -49,7 +49,6 @@ Kintambo , kinshasa RD Congo</p><br>
 <a  href="#"> <img src="elts/rs2.png" width="30" height="30"> </a>
 <a  href="#"> <img src="elts/rs3.png" width="30" height="30"> </a>
 <a  href="#"> <img src="elts/rs4.png" width="30" height="30"> </a></div>
-            
           </div>
         </div>
       </div>
