@@ -17,7 +17,6 @@
                     <div class="blog classic-view boxed">
                          <div class="post mb-0">
                             <div class="box bg-white">
-                                <div class="space40"></div>
                                     <div class="post-content">
                                         <p>
                                             <?php echo $page->page_content; ?>
