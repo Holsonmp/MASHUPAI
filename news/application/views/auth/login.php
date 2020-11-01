@@ -11,7 +11,7 @@
 <!-- Section: main -->
 <section id="">
 	<div class="container">
-		<div class="row">
+		<div class="">
 
 			<div class="page-content">
 				<div class="col-sm-12 col-md-6 col-md-4 center-box">
@@ -73,7 +73,6 @@
 								<button type="submit" class="btn w-100 btn-block btn-custom">
 									<?php echo html_escape(trans("login")); ?>
 								</button>
-								<a href="<?php echo base_url();?>register" class="btn mt-3 w-100 text-center ">Create new account</a>
 								</div>
 							</div>
 							</div>

@@ -1,24 +1,19 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
+<div class="wrapper light-wrapper page-title-wrapper">
+		<div class="space100"></div>
+      	<div class="container inner text-center">
+        <h1 class="page-title"><?php echo html_escape($title); ?></h1>
+        <p class="lead">Aenean lacinia bibendum nulla sed consectetur</p>
+      </div>
 <!-- Section: main -->
-<section id="main">
+<section id="">
     <div class="container">
-        <div class="row">
+        <div class="">
             <!-- breadcrumb -->
-            <div class="page-breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="<?php echo lang_base_url(); ?>"><?php echo trans("home"); ?></a>
-                    </li>
-                    <li class="breadcrumb-item active"><?php echo trans("forgot_password"); ?></li>
-                </ol>
-            </div>
 
             <div class="page-content">
                 <div class="col-xs-12 col-sm-6 col-md-4 center-box">
-                    <div class="content page-contact page-login">
-
-                        <h1 class="page-title text-center"><?php echo trans("forgot_password"); ?></h1>
+                    <div class="content page-login">
 
                         <!-- include message block -->
                         <?php $this->load->view('partials/_messages'); ?>
@@ -49,6 +44,4 @@
     </div>
 </section>
 <!-- /.Section: main -->
-
-
-
+</div>

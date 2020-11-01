@@ -8,13 +8,14 @@
 <!-- Section: main -->
 <section id="main">
     <div class="container">
-        <div class="row">
+        <div class="">
             <!-- breadcrumb -->
 
             <div class="page-content">
                 <div class="col-xs-12 col-sm-6 col-md-4 center-box">
                     <div class="content form_account page-login">
                         <div class="col-12">
+                            <div class="row">
 
                         <!-- form start -->
                         <?php echo form_open('auth_controller/register_post', ['id' => 'form_validate', 'class' => 'validate_terms']); ?>
@@ -77,6 +78,7 @@
 
                     </div>
 
+                    </div>
                     </div>
 
                 </div>
