@@ -72,7 +72,6 @@
 								<button type="submit" class="btn btn-block btn-custom">
 									<?php echo html_escape(trans("login")); ?>
 								</button>
-								<a href="#" class="btn mt-3  text-center w-100">Create new account</a>
 								</div>
 							</div>
 							</div>
