@@ -3,7 +3,6 @@
 		<div class="space80"></div>
       	<div class="container inner text-center">
         <h1 class="page-title"><?php echo html_escape(trans("tag")); ?></h1>
-        <p class="lead"><?php echo html_escape($tag->tag); ?></p>
       </div>
       <!-- /.container -->
 	
@@ -13,17 +12,6 @@
     <div class="container">
         <div class="row">
             <!-- breadcrumb -->
-            <div class="page-breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="<?php echo lang_base_url(); ?>"><?php echo html_escape(trans("home")); ?></a>
-                    </li>
-                    <li class="breadcrumb-item active"><?php echo html_escape(trans("tag")); ?>
-                        : <?php echo html_escape($tag->tag); ?></li>
-                    </li>
-                </ol>
-            </div>
-
             <div class="page-content">
                 <div class="col-xs-12 col-sm-12 col-md-8">
 

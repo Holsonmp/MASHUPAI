@@ -1,38 +1,28 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
+<h1 class="title-index"><?php echo html_escape($page->title); ?></h1>
+<div class="wrapper light-wrapper page-title-wrapper">
+<div class="space100"></div>
+      <div class="container inner text-center">
+        <h1 class="page-title"><?php echo html_escape($page->title); ?></h1>
+        <p class="lead">Aenean lacinia bibendum nulla sed consectetur</p>
+      </div>
+      <!-- /.container -->
+    </div>
 <!-- Section: main -->
 <section id="main">
     <div class="container">
         <div class="row">
             <!-- breadcrumb -->
-            <?php if ($page->breadcrumb_active == 1): ?>
-                <div class="page-breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="<?php echo lang_base_url(); ?>"><?php echo html_escape(trans("home")); ?></a>
-                        </li>
-                        <li class="breadcrumb-item active"><?php echo html_escape($page->title); ?></li>
-                    </ol>
-                </div>
-            <?php else: ?>
-                <div class="page-breadcrumb m-t-45">
-                </div>
-            <?php endif; ?>
-
-
+        <div class="">
             <div class="page-content">
                 <!--If right column active-->
                 <?php if ($page->right_column_active == 0): ?>
 
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="content page-about page-res">
 
-                            <?php if ($page->title_active == 1): ?>
-                                <h1 class="page-title"><?php echo html_escape($page->title); ?></h1>
-                            <?php endif; ?>
-
                             <!--  page content -->
-                            <div class="text-style">
+                            <div class="">
                                 <?php echo $page->page_content; ?>
                             </div>
 
@@ -66,9 +56,10 @@
 
                 <?php endif; ?>
 
-
+                </div>
             </div>
         </div>
     </div>
 </section>
 <!-- /.Section: main -->
+</div>
