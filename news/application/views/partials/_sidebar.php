@@ -3,7 +3,7 @@
 <aside class="sidebar">
 <div class="sidebox widget">
               <h3 class="widget-title">Search</h3>
-              <form class="search-form fields-white" action="<?php echo base_url(); ?>search" method="post">
+              <?php echo form_open('search', ['class'=>'search-form fields-white']); ?>
                 <div class="form-group">
                   <input type="text" name='q' class="form-control" placeholder="Search something">
                 </div>
