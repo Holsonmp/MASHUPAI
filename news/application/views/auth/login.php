@@ -1,12 +1,13 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <div class="wrapper light-wrapper page-title-wrapper">
-<div class="space100"></div>
-      <div class="container inner text-center">
+		<div class="space100"></div>
+      	<div class="container inner text-center">
         <h1 class="page-title"><?php echo trans("login"); ?></h1>
         <p class="lead">Aenean lacinia bibendum nulla sed consectetur</p>
       </div>
       <!-- /.container -->
-	</div>
+	
+
 <!-- Section: main -->
 <section id="">
 	<div class="container">
@@ -69,10 +70,10 @@
 								</a>
 								</div>
 								<div class="col-12 mt-4">
-								<button type="submit" class="btn btn-block btn-custom">
+								<button type="submit" class="btn w-100 btn-block btn-custom">
 									<?php echo html_escape(trans("login")); ?>
 								</button>
-								<a href="#" class="btn mt-3  text-center ">Create new account</a>
+								<a href="<?php echo base_url();?>register" class="btn mt-3 w-100 text-center ">Create new account</a>
 								</div>
 							</div>
 							</div>
@@ -91,4 +92,4 @@
 </section>
 <!-- /.Section: main -->
 
-						
+</div>

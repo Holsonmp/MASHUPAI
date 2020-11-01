@@ -1,17 +1,15 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="wrapper light-wrapper page-title-wrapper">
+		<div class="space100"></div>
+      	<div class="container inner text-center">
+        <h1 class="page-title"><?php echo trans("login"); ?></h1>
+        <p class="lead">Aenean lacinia bibendum nulla sed consectetur</p>
+      </div>
 <!-- Section: main -->
 <section id="main">
     <div class="container">
         <div class="row">
             <!-- breadcrumb -->
-            <div class="page-breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="<?php echo lang_base_url(); ?>"><?php echo trans("home"); ?></a>
-                    </li>
-                    <li class="breadcrumb-item active"><?php echo trans("register"); ?></li>
-                </ol>
-            </div>
 
             <div class="page-content">
                 <div class="col-xs-12 col-sm-6 col-md-4 center-box">
@@ -88,3 +86,4 @@
 </section>
 <!-- /.Section: main -->
 
+</div>
