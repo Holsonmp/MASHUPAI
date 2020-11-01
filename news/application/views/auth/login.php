@@ -15,7 +15,7 @@
 
 			<div class="page-content">
 				<div class="col-sm-12 col-md-6 col-md-4 center-box">
-					<div class="content page-contact page-login">
+					<div class="content form_account page-login">
 
 					
 					
