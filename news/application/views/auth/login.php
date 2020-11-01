@@ -17,18 +17,7 @@
 					<div class="content page-contact page-login">
 
 					<div class="form_account">
-              <div class="head_account">
-                <div class="img_profile">
-                  <img src="assets/img/persons/300.png" />
-                </div>
-                <div class="title">
-                  <h4>Rakon.</h4>
-                  <p>
-                    Welcome back again,<br />
-                    Please sign in
-                  </p>
-                </div>
-              </div>
+
               <div class="form-row">
                 <div class="col-12">
                   <div class="row">
