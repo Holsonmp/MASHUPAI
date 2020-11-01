@@ -1,4 +1,12 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<div class="wrapper light-wrapper page-title-wrapper">
+		<div class="space80"></div>
+      	<div class="container inner text-center">
+        <h1 class="page-title"><?php echo html_escape(trans("tag")); ?></h1>
+        <p class="lead"><?php echo html_escape($tag->tag); ?></p>
+      </div>
+      <!-- /.container -->
+	
 
 <!-- Section: main -->
 <section id="main">
@@ -79,3 +87,4 @@
     </div>
 </section>
 <!-- /.Section: main -->
+</div>
