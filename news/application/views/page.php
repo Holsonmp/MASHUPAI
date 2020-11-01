@@ -11,7 +11,7 @@
     </div>
     <!-- /.offcanvas-info -->
     <div class="wrapper light-wrapper">
-        <div class="container inner pt-80">
+        <div class="container inner pt-20">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="blog classic-view boxed">
