@@ -16,8 +16,11 @@
 				<div class="col-sm-12 col-md-6 col-md-4 center-box">
 					<div class="content page-contact page-login">
 
+					
+					
+					<?php echo form_open('auth_controller/login_post'); ?>
 					<div class="form_account">
-
+						<input type="hidden" name="redirect_url" value="<?php echo lang_base_url(); ?>">
 						<div class="form-row">
 							<div class="col-12">
 							<div class="row">
@@ -47,9 +50,9 @@
 							</div>
 							</div>
 						</div>
-						</div>
+					</div>
           
-
+					<?php echo form_close(); ?><!-- form end -->
 
 
 
