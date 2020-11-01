@@ -21,13 +21,34 @@
 					<?php echo form_open('auth_controller/login_post'); ?>
 					<div class="form_account">
 						<input type="hidden" name="redirect_url" value="<?php echo lang_base_url(); ?>">
+						<?php if (!empty($general_settings->facebook_app_id)): ?>
+							<a href="<?php echo base_url(); ?>connect-with-facebook" class="btn btn-social btn-social-facebook">
+								<i class="icon-facebook"></i>&nbsp;<?php echo trans("connect_with_facebook"); ?>
+							</a>
+						<?php endif; ?>
+						<?php if (!empty($general_settings->google_client_id)): ?>
+							<a href="<?php echo base_url(); ?>connect-with-google" class="btn btn-social btn-social-google">
+								<i class="icon-google"></i>&nbsp;<?php echo trans("connect_with_google"); ?>
+							</a>
+						<?php endif; ?>
+
+						<?php if (!empty($general_settings->facebook_app_id) || !empty($general_settings->google_client_id)): ?>
+							<p class="p-auth-modal-or">
+								<span><?php echo trans("or_login_with_email"); ?></span>
+							</p>
+						<?php endif; ?>
+
+
 						<div class="form-row">
 							<div class="col-12">
 							<div class="row">
 								<div class="col-md-12">
 								<div class="form-group">
-									<label>Email / Username</label>
-									<input type="email" class="form-control" placeholder="E-mail / Username" />
+									<label><?php echo trans("username_or_email"); ?></label>
+									<input type="text" name="username" class="form-control"
+								   placeholder="<?php echo trans("username_or_email"); ?>"
+								   value="<?php echo html_escape(old('username')); ?>"
+								   required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
 								</div>
 								</div>
 								<div class="col-md-12">
