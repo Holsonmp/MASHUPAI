@@ -138,7 +138,7 @@
     </div>
 
 
-    <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="themes/style/images/art/bg5.jpg">
+    <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?php echo base_url(); ?>themes/style/images/art/bg5.jpg">
       <div class="container inner pt-100">
         <div class="row">
           <div class="col-lg-8 offset-lg-2">
@@ -158,7 +158,7 @@
         <div class="row text-center">
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/hs-24-hours-1.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/hs-24-hours-1.png" alt=""></div>
               <h5>24/7 Support</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
@@ -167,7 +167,7 @@
           <!--/column -->
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/st-payment-method.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/st-payment-method.png" alt=""></div>
               <h5>Secure Payments</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
@@ -177,7 +177,7 @@
           <div class="space30 d-none d-md-block d-lg-none"></div>
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/ms-cloud-computing.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/ms-cloud-computing.png" alt=""></div>
               <h5>Daily Updates</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
@@ -187,7 +187,7 @@
           <div class="space30 d-none d-lg-block"></div>
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/of-diagram.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/of-diagram.png" alt=""></div>
               <h5>Research & Marketing</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
@@ -197,7 +197,7 @@
           <div class="space30 d-none d-md-block d-lg-none"></div>
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/sm-setting.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/sm-setting.png" alt=""></div>
               <h5>System Integration</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
@@ -206,7 +206,7 @@
           <!--/column -->
           <div class="col-md-6 col-lg-4">
             <div class="box bg-white shadow">
-              <div class="icon icon-svg mb-20"><img src="style/images/icons/de-earth-globe-3.png" alt=""></div>
+              <div class="icon icon-svg mb-20"><img src="<?php echo base_url(); ?>themes/style/images/icons/de-earth-globe-3.png" alt=""></div>
               <h5>SEO Service</h5>
               <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio. Cum sociis natoque penatibus magnis dis.</p>
             </div>
