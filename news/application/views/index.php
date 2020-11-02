@@ -29,7 +29,7 @@
 							data-voffset="['30','30','-200','-90']" 
 							data-fontsize="['26','26','22','20']" 
 							data-lineheight="['36','36','32','30']" 
-							data-width="['400','400','650','340']" 
+							data-width="['350','350','650','340']" 
 							data-textAlign="['left','left','center','center']" 
 							data-whitespace="['normal','normal','normal','normal']" 
 							data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
