@@ -227,7 +227,7 @@ public function services()
 public function faq()
 {
 	get_method();
-	$data['page'] = $this->page_model->get_page('about-us');
+	$data['page'] = $this->page_model->get_page('faq');
 	//check page auth
 	$this->checkPageAuth($data['page']);
 
