@@ -10,7 +10,7 @@
     </div>
     </div>
     <!-- /.offcanvas-info -->
-    <div class="wrapper light-wrapper">
+    <div class="wrapper white-wrapper">
         <div class="container inner pt-20">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
