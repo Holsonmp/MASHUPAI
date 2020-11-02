@@ -15,7 +15,7 @@
       <!-- /.container -->
     </div>
     <!-- /.wrapper -->
-    <div class="wrapper light-wrapper">
+    <div class="wrapper white-wrapper">
       <div class="container inner">
         <div class="row align-items-center">
           <div class="col-lg-6">
