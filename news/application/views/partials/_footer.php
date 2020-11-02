@@ -42,7 +42,7 @@
 							<li><a href="<?php echo base_url(); ?>our-story">Our Story</a></li>
 							<li><a href="<?php echo base_url(); ?>ota-benga">Projects</a></li>
 							<li><a href="<?php echo base_url(); ?>">Pricing</a></li>
-							<li><a href="<?php echo base_url(); ?>">faq</a></li>
+							<li><a href="<?php echo base_url(); ?>faq">Faqs</a></li>
 						</ul>
 						</div>
 						<!-- /.widget -->
