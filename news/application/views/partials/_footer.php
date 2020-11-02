@@ -42,7 +42,7 @@
 							<li><a href="<?php echo base_url(); ?>our-story">Our Story</a></li>
 							<li><a href="<?php echo base_url(); ?>ota-benga">Projects</a></li>
 							<li><a href="<?php echo base_url(); ?>">Pricing</a></li>
-							<li><a href="<?php echo base_url(); ?>">Features</a></li>
+							<li><a href="<?php echo base_url(); ?>">faq</a></li>
 						</ul>
 						</div>
 						<!-- /.widget -->
@@ -54,7 +54,7 @@
 						<ul class="list-unstyled mb-0">
 							<li><a href="<?php echo base_url(); ?>our-story">Notre équipe</a></li>
 							<li><a href="<?php echo base_url(); ?>">Strategy</a></li>
-							<li><a href="<?php echo base_url(); ?>services">Service</a></li>
+							<li><a href="<?php echo base_url(); ?>services">Services</a></li>
 							<li><a href="">Mission</a></li>
 							<li><a href="#">Process</a></li>
 						</ul>
