@@ -1,6 +1,12 @@
-<?php
-    //
-?>
+<h1 class="title-index"><?php echo html_escape($home_title); ?></h1>
+<div class="wrapper light-wrapper page-title-wrapper">
+<div class="space100"></div>
+      <div class="container inner text-center">
+        <h1 class="page-title">Our Blog</h1>
+        <p class="lead">Aenean lacinia bibendum nulla sed consectetur</p>
+      </div>
+      <!-- /.container -->
+    </div>
     <!-- /.wrapper -->
     <div class="wrapper light-wrapper">
       <div class="container inner">
