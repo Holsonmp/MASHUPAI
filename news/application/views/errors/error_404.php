@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
+<div class="space100"></div>
 <!-- Section: main -->
-<section id="main">
+<section id="">
     <div class="container">
         <div class="row">
             <div class="error-404">

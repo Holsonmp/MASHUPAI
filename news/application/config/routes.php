@@ -62,6 +62,7 @@ $route['blog'] = 'home_controller/blog';
 $route['error-404'] = 'home_controller/error_404';
 $route['about-us'] = 'home_controller/about';
 $route['services'] = 'home_controller/services';
+$route['faq'] = 'home_controller/faq';
 
 $route['gallery'] = 'home_controller/gallery';
 $route['gallery/album/(:num)'] = 'home_controller/gallery_album/$1';
