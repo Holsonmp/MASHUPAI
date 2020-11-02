@@ -224,7 +224,26 @@ public function services()
 		$this->load->view('partials/_footer');
 	}
 }
+public function faq()
+{
+	get_method();
+	$data['page'] = $this->page_model->get_page('about-us');
+	//check page auth
+	$this->checkPageAuth($data['page']);
 
+	if ($data['page']->page_active == 0) {
+		$this->error_404();
+	} else {
+		$data['title'] = get_page_title($data['page']);
+		$data['description'] = get_page_description($data['page']);
+		$data['keywords'] = get_page_keywords($data['page']);
+		
+
+		$this->load->view('partials/_header', $data);
+		$this->load->view('faq', $data);
+		$this->load->view('partials/_footer');
+	}
+}
 	/**
 	 * Contact Page Post
 	 */
