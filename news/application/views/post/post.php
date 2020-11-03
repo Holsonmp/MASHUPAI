@@ -2,14 +2,14 @@
 <div class="space80"></div>
     <!-- /.offcanvas-info -->
     <div class="wrapper light-wrapper">
-      <div class="container inner pt-80">
+      <div class="container  inner pt-80">
         <div class="row">
           <div class="col-lg-8">
-            <div class="blog classic-view">
+            <div class="blog classic-view ">
               <div class="post mb-0">
 			  <div class="content">
 
-	<div class="post-content">
+	<div class="post-content ">
 		<div class="post-title">
 			<h1 class="title"><?php echo html_escape($post->title); ?></h1>
 		</div>
