@@ -92,16 +92,16 @@
 		</div>
 
     <!-- /.wrapper -->
-    <div class="wrapper white-wrapper">
+    <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner" style="padding-bottom:10px">
         <div class="text-center">
-          <h2 class="title-bg bg-default color-default">What We Do?</h2>
+          <h2 class="title-bg bg-default color-default"  data-aos="fade-up" data-aos-delay="900">What We Do?</h2>
         </div>
         <div class="space10"></div>
-        <h3 class="display-3 text-center">The full service we are offering is specifically <br class="d-none d-lg-block" />designed to meet your business needs.</h3>
+        <h3 class="display-3 text-center"  data-aos="fade-up" data-aos-delay="1000">The full service we are offering is specifically <br class="d-none d-lg-block" />designed to meet your business needs.</h3>
         <div class="space30"></div>
         <div class="row gutter-60 text-center align-items-end">
-          <div class="col-md-4">
+          <div class="col-md-4"  data-aos="fade-down" data-aos-delay="1100">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept14.png 1x, style/images/concept/concept14@2x.png 2x" alt="" /></figure>
             <h4>Social Media</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -109,7 +109,7 @@
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="1200">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept19.png 1x, style/images/concept/concept19@2x.png 2x" alt="" /></figure>
             <h4>Digital Marketing</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -117,7 +117,7 @@
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept18.png 1x, style/images/concept/concept18@2x.png 2x" alt="" /></figure>
             <h4>SEO Optimization</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -132,9 +132,9 @@
     <!-- /.wrapper -->
 
 
-    <div class="wrapper white-wrapper">
+    <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="800">
           <div class="col-lg-6">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept10.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept10@2x.png 2x" alt="" /></figure>
           </div>
@@ -152,7 +152,7 @@
         </div>
         <!--/.row -->
         <div class="space120"></div>
-        <div class="row align-items-center">
+        <div class="row align-items-center"  data-aos="fade-up" data-aos-delay="900">
           <div class="col-lg-6 order-lg-2">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept9.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept9@2x.png 2x" alt="" /></figure>
           </div>
@@ -170,7 +170,7 @@
         </div>
         <!--/.row -->
         <div class="space120"></div>
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="900">
           <div class="col-lg-6">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept5.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept5@2x.png 2x" alt="" /></figure>
           </div>
@@ -192,7 +192,7 @@
       <!-- /.container -->
     </div>
     <!-- /.wrapper -->
-    <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?php echo base_url(); ?>themes/style/images/art/bg4.jpg">
+    <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?php echo base_url(); ?>themes/style/images/art/bg4.jpg" data-transition="fade">
       <div class="container inner">
         <div class="row">
           <div class="col-md-10 offset-md-1">
@@ -234,7 +234,7 @@
       <!-- /.container -->
     </div>
     <!-- /.wrapper -->
-    <div class="wrapper white-wrapper">
+    <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner text-center">
         <h3 class="display-2">Here are 4 working steps to <br class="d-none d-lg-block" />organize our business projects.</h3>
         <div class="space30"></div>
@@ -266,7 +266,7 @@
       <!-- /.container -->
     </div>
     <!-- /.wrapper -->
-    <div class="wrapper light-wrapper">
+    <div class="wrapper light-wrapper" data-transition="fade">
       <div class="container" style="padding-top:20px">
         <div class="text-center">
           <h2 class="title-bg bg-default color-default">Happy Customers</h2>
@@ -344,7 +344,7 @@
 	<!-- /.wrapper -->
 	
 	
-    <div class="wrapper white-wrapper">
+    <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner">
         <div class="row align-items-center">
           <div class="col-lg-6">
