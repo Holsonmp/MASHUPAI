@@ -95,13 +95,13 @@
     <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner" style="padding-bottom:10px">
         <div class="text-center">
-          <h2 class="title-bg bg-default color-default"  data-aos="fade-up" data-aos-delay="900">What We Do?</h2>
+          <h2 class="title-bg bg-default color-default"  data-aos="fade-up" data-aos-delay="200">What We Do?</h2>
         </div>
         <div class="space10"></div>
-        <h3 class="display-3 text-center"  data-aos="fade-up" data-aos-delay="1000">The full service we are offering is specifically <br class="d-none d-lg-block" />designed to meet your business needs.</h3>
+        <h3 class="display-3 text-center"  data-aos="fade-up" data-aos-delay="100">The full service we are offering is specifically <br class="d-none d-lg-block" />designed to meet your business needs.</h3>
         <div class="space30"></div>
         <div class="row gutter-60 text-center align-items-end">
-          <div class="col-md-4"  data-aos="fade-down" data-aos-delay="1100">
+          <div class="col-md-4"  data-aos="fade-down" data-aos-delay="100">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept14.png 1x, style/images/concept/concept14@2x.png 2x" alt="" /></figure>
             <h4>Social Media</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -109,7 +109,7 @@
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="1200">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept19.png 1x, style/images/concept/concept19@2x.png 2x" alt="" /></figure>
             <h4>Digital Marketing</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -117,7 +117,7 @@
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept18.png 1x, style/images/concept/concept18@2x.png 2x" alt="" /></figure>
             <h4>SEO Optimization</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
@@ -134,7 +134,7 @@
 
     <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner">
-        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="800">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-6">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept10.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept10@2x.png 2x" alt="" /></figure>
           </div>
@@ -152,7 +152,7 @@
         </div>
         <!--/.row -->
         <div class="space120"></div>
-        <div class="row align-items-center"  data-aos="fade-up" data-aos-delay="900">
+        <div class="row align-items-center"  data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-6 order-lg-2">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept9.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept9@2x.png 2x" alt="" /></figure>
           </div>
@@ -170,7 +170,7 @@
         </div>
         <!--/.row -->
         <div class="space120"></div>
-        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="900">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-6">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept5.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept5@2x.png 2x" alt="" /></figure>
           </div>
@@ -236,10 +236,10 @@
     <!-- /.wrapper -->
     <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner text-center">
-        <h3 class="display-2">Here are 4 working steps to <br class="d-none d-lg-block" />organize our business projects.</h3>
+        <h3 class="display-2"  data-aos="fade-up" data-aos-delay="200">Here are 4 working steps to <br class="d-none d-lg-block" />organize our business projects.</h3>
         <div class="space30"></div>
         <div class="row gutter-60 d-flex align-items-center">
-          <div class="col-md-6 col-lg-3 order-lg-1">
+          <div class="col-md-6 col-lg-3 order-lg-1" data-aos="fade-right" data-aos-delay="600">
             <h4>1. Collect Ideas</h4>
             <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
             <div class="space20"></div>
@@ -247,12 +247,12 @@
             <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
           </div>
           <!--/column -->
-          <div class="col-lg-6 order-sm-first order-lg-2">
+          <div class="col-lg-6 order-sm-first order-lg-2" data-aos="fade-up" data-aos-delay="650">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept7.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept7@2x.png 2x" alt="" /></figure>
             <div class="space50 d-none d-md-block d-lg-none"></div>
           </div>
           <!--/column -->
-          <div class="col-md-6 col-lg-3 order-lg-3">
+          <div class="col-md-6 col-lg-3 order-lg-3" data-aos="fade-left" data-aos-delay="600">
             <h4>3. Magic Touch</h4>
             <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
             <div class="space20"></div>
@@ -272,16 +272,16 @@
           <h2 class="title-bg bg-default color-default">Happy Customers</h2>
         </div>
         <div class="space10"></div>
-        <h3 class="display-3 text-center">Customer satisfaction is our major goal. <br class="d-none d-lg-block" />See what our customers are saying about us.</h3>
+        <h3 class="display-3 text-center"  data-aos="fade-up" data-aos-delay="300">Customer satisfaction is our major goal. <br class="d-none d-lg-block" />See what our customers are saying about us.</h3>
         <div class="space40"></div>
         <div class="row align-items-center">
-          <div class="col-lg-6 pr-60 pr-md-15">
+          <div class="col-lg-6 pr-60 pr-md-15" data-aos="fade-down" data-aos-delay="400">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept16.png 1x, style/images/concept/concept16@2x.png 2x" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
           <div class="space50 d-none d-md-block d-lg-none"></div>
-          <div class="col-lg-5">
+          <div class="col-lg-5"  data-aos="fade-left" data-aos-delay="500">
             <div class="basic-slider owl-carousel gap-small dots-left" data-margin="30">
               <div class="item">
                 <blockquote class="icon icon-left larger text-left">
@@ -347,13 +347,13 @@
     <div class="wrapper white-wrapper" data-transition="fade">
       <div class="container inner">
         <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6"  data-aos="fade-up" data-aos-delay="200">
             <figure><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept12.png 1x, <?php echo base_url(); ?>themes/style/images/concept/concept12@2x.png 2x" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
           <div class="space50 d-none d-md-block d-lg-none"></div>
-          <div class="col-lg-6 pl-60 pl-md-15">
+          <div class="col-lg-6 pl-60 pl-md-15"  data-aos="fade-down" data-aos-delay="200">
             <h3 class="display-2">Inscrivez-vous à notre newsletter et recevez des offres exclusives!</h3>
             <div class="space30"></div>
             <div class="row">
