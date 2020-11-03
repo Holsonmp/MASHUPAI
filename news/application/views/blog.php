@@ -27,7 +27,7 @@
 endif; ?>
 
 <!-- Section: main -->
-<section id="main" class="margin-top-30">
+<section id="main" class="margin-top-30 wrapper white-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-8">
