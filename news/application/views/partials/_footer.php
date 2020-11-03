@@ -24,10 +24,10 @@
 						<div class="widget">
 						<h5 class="widget-title">Need Help?</h5>
 						<ul class="list-unstyled mb-0">
-							<li><a href="<?php echo base_url(); ?>">Support</a></li>
+							<li><a href="https://docs.marilys.co">Support</a></li>
 							<li><a href="https://www.marilys.co">Get Started</a></li>
 							<li><a href="<?php echo base_url(); ?>terms-conditions">Terms of Use</a></li>
-							<li><a href="<?php echo base_url(); ?>">Privacy Policy</a></li>
+							<li><a href="<?php echo base_url(); ?>privacy-policy">Privacy Policy</a></li>
 							<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 						</ul>
 						</div>
@@ -41,7 +41,7 @@
 							<li><a href="<?php echo base_url(); ?>about-us">About Us</a></li>
 							<li><a href="<?php echo base_url(); ?>our-story">Our Story</a></li>
 							<li><a href="<?php echo base_url(); ?>ota-benga">Projects</a></li>
-							<li><a href="<?php echo base_url(); ?>">Pricing</a></li>
+							<li><a href="https://www.marilys.co/pricing">Pricing</a></li>
 							<li><a href="<?php echo base_url(); ?>faq">Faqs</a></li>
 						</ul>
 						</div>
@@ -52,10 +52,10 @@
 						<div class="widget">
 						<h5 class="widget-title">Company</h5>
 						<ul class="list-unstyled mb-0">
-							<li><a href="<?php echo base_url(); ?>our-story">Notre équipe</a></li>
+							<li><a href="<?php echo base_url(); ?>our-team">Our Team</a></li>
 							<li><a href="<?php echo base_url(); ?>">Strategy</a></li>
 							<li><a href="<?php echo base_url(); ?>services">Services</a></li>
-							<li><a href="">Mission</a></li>
+							<li><a href="<?php echo base_url(); ?>about">Mission</a></li>
 							<li><a href="#">Process</a></li>
 						</ul>
 						</div>
