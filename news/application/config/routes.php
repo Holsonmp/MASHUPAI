@@ -183,7 +183,7 @@ $route[$r_admin . "/social-login"] = 'admin_controller/social_login_settings';
 require_once(BASEPATH . 'database/DB.php');
 $db =& DB();
 $general_settings = $db->get('general_settings')->row();
-defined('SITE_INF_KEY') OR define('SITE_INF_KEY', trim($general_settings->inf_key));
+defined('SITE_MASH_KEY') OR define('SITE_MASH_KEY', trim($general_settings->inf_key));
 defined('SITE_PRC_CD') OR define('SITE_PRC_CD', trim($general_settings->purchase_code));
 $languages = $db->get('languages')->result();
 foreach ($languages as $language) {

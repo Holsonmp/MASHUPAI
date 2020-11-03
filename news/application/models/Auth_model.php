@@ -34,12 +34,12 @@ class Auth_model extends CI_Model
 			}
 			//set user data
 			$user_data = array(
-				'inf_ses_id' => $user->id,
-				'inf_ses_username' => $user->username,
-				'inf_ses_email' => $user->email,
-				'inf_ses_role' => $user->role,
-				'inf_ses_logged_in' => true,
-				'inf_ses_app_key' => $this->config->item('app_key'),
+				'mash_ses_id' => $user->id,
+				'mash_ses_username' => $user->username,
+				'mash_ses_email' => $user->email,
+				'mash_ses_role' => $user->role,
+				'mash_ses_logged_in' => true,
+				'mash_ses_app_key' => $this->config->item('app_key'),
 			);
 			$this->session->set_userdata($user_data);
 			return "success";
@@ -123,12 +123,12 @@ class Auth_model extends CI_Model
 	{
 		//set user data
 		$user_data = array(
-			'inf_ses_id' => $user->id,
-			'inf_ses_username' => $user->username,
-			'inf_ses_email' => $user->email,
-			'inf_ses_role' => $user->role,
-			'inf_ses_logged_in' => true,
-			'inf_ses_app_key' => $this->config->item('app_key'),
+			'mash_ses_id' => $user->id,
+			'mash_ses_username' => $user->username,
+			'mash_ses_email' => $user->email,
+			'mash_ses_role' => $user->role,
+			'mash_ses_logged_in' => true,
+			'mash_ses_app_key' => $this->config->item('app_key'),
 		);
 		$this->session->set_userdata($user_data);
 	}
@@ -148,12 +148,12 @@ class Auth_model extends CI_Model
 			$user = $this->get_user($id);
 			//set user data
 			$user_data = array(
-				'inf_ses_id' => $user->id,
-				'inf_ses_username' => $user->username,
-				'inf_ses_email' => $user->email,
-				'inf_ses_role' => $user->role,
-				'inf_ses_logged_in' => true,
-				'inf_ses_app_key' => $this->config->item('app_key'),
+				'mash_ses_id' => $user->id,
+				'mash_ses_username' => $user->username,
+				'mash_ses_email' => $user->email,
+				'mash_ses_role' => $user->role,
+				'mash_ses_logged_in' => true,
+				'mash_ses_app_key' => $this->config->item('app_key'),
 			);
 			$this->session->set_userdata($user_data);
 			return true;
@@ -219,12 +219,12 @@ class Auth_model extends CI_Model
 	public function logout()
 	{
 		//unset user data
-		$this->session->unset_userdata('inf_ses_id');
-		$this->session->unset_userdata('inf_ses_username');
-		$this->session->unset_userdata('inf_ses_email');
-		$this->session->unset_userdata('inf_ses_role');
-		$this->session->unset_userdata('inf_ses_logged_in');
-		$this->session->unset_userdata('inf_ses_app_key');
+		$this->session->unset_userdata('mash_ses_id');
+		$this->session->unset_userdata('mash_ses_username');
+		$this->session->unset_userdata('mash_ses_email');
+		$this->session->unset_userdata('mash_ses_role');
+		$this->session->unset_userdata('mash_ses_logged_in');
+		$this->session->unset_userdata('mash_ses_app_key');
 	}
 
 	//update user
@@ -360,7 +360,7 @@ class Auth_model extends CI_Model
 	{
 		$user = $this->get_logged_user();
 		//check if user logged in
-		if ($this->session->userdata('inf_ses_logged_in') == true && $this->session->userdata('inf_ses_app_key') == $this->config->item('app_key') && !empty($user)) {
+		if ($this->session->userdata('mash_ses_logged_in') == true && $this->session->userdata('mash_ses_app_key') == $this->config->item('app_key') && !empty($user)) {
 
 			if ($user->status == 0) {
 				$this->logout();
@@ -384,7 +384,7 @@ class Auth_model extends CI_Model
 		}
 
 		//check role
-		if ($this->session->userdata('inf_ses_role') == 'admin') {
+		if ($this->session->userdata('mash_ses_role') == 'admin') {
 			return true;
 		} else {
 			return false;
@@ -400,7 +400,7 @@ class Auth_model extends CI_Model
 		}
 
 		//check role
-		if ($this->session->userdata('inf_ses_role') == 'author') {
+		if ($this->session->userdata('mash_ses_role') == 'author') {
 			return true;
 		} else {
 			return false;
@@ -410,7 +410,7 @@ class Auth_model extends CI_Model
 	//function get user
 	public function get_logged_user()
 	{
-		if ($this->session->userdata('inf_ses_logged_in') == true) {
+		if ($this->session->userdata('mash_ses_logged_in') == true) {
 			$query = $this->db->get_where('users', array('id' => $this->get_user_id()));
 			return $query->row();
 		}
@@ -482,13 +482,13 @@ class Auth_model extends CI_Model
 	//get logged user id
 	public function get_user_id()
 	{
-		return $this->session->userdata('inf_ses_id');
+		return $this->session->userdata('mash_ses_id');
 	}
 
 	//get logged username
 	public function get_username()
 	{
-		return $this->session->userdata('inf_ses_username');
+		return $this->session->userdata('mash_ses_username');
 	}
 
 	//user count

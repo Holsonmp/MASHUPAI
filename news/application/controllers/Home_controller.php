@@ -773,7 +773,7 @@ public function faq()
 	//cookies warning
 	public function cookies_warning()
 	{
-		setcookie('inf_cookies_warning', '1', time() + (86400 * 20), "/");
+		setcookie('mash_cookies_warning', '1', time() + (86400 * 20), "/");
 	}
 
 	private function checkPageAuth($page)

@@ -583,7 +583,7 @@ if (!function_exists('get_post_files')) {
 if (!function_exists('is_reaction_voted')) {
 	function is_reaction_voted($post_id, $reaction)
 	{
-		if (isset($_SESSION["inf_reaction_" . $reaction . "_" . $post_id]) && $_SESSION["inf_reaction_" . $reaction . "_" . $post_id] == '1') {
+		if (isset($_SESSION["mash_reaction_" . $reaction . "_" . $post_id]) && $_SESSION["mash_reaction_" . $reaction . "_" . $post_id] == '1') {
 			return true;
 		} else {
 			return false;

@@ -5044,12 +5044,12 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 .section__stories .swip__stories .feature_strories .item:hover::before {
   opacity: 1;
 }
-.section__stories .swip__stories .feature_strories .item:hover .inf__txt {
+.section__stories .swip__stories .feature_strories .item:hover .mash__txt {
   opacity: 1;
 }
-.section__stories .swip__stories .feature_strories .item:hover .inf__txt span,
-.section__stories .swip__stories .feature_strories .item:hover .inf__txt h3,
-.section__stories .swip__stories .feature_strories .item:hover .inf__txt time {
+.section__stories .swip__stories .feature_strories .item:hover .mash__txt span,
+.section__stories .swip__stories .feature_strories .item:hover .mash__txt h3,
+.section__stories .swip__stories .feature_strories .item:hover .mash__txt time {
   transform: translateY(0);
 }
 .section__stories .swip__stories .feature_strories .item .img__nature {
@@ -5061,7 +5061,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   border-radius: 12px;
   object-fit: cover;
 }
-.section__stories .swip__stories .feature_strories .item .inf__txt {
+.section__stories .swip__stories .feature_strories .item .mash__txt {
   position: absolute;
   bottom: 1.875rem;
   left: 1.563rem;
@@ -5074,18 +5074,18 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
 }
 @media (max-width: 991px) {
-  .section__stories .swip__stories .feature_strories .item .inf__txt {
+  .section__stories .swip__stories .feature_strories .item .mash__txt {
     opacity: 1;
   }
 }
 @media (max-width: 991px) {
-  .section__stories .swip__stories .feature_strories .item .inf__txt span,
-  .section__stories .swip__stories .feature_strories .item .inf__txt h3,
-  .section__stories .swip__stories .feature_strories .item .inf__txt time {
+  .section__stories .swip__stories .feature_strories .item .mash__txt span,
+  .section__stories .swip__stories .feature_strories .item .mash__txt h3,
+  .section__stories .swip__stories .feature_strories .item .mash__txt time {
     transform: translateY(0) !important;
   }
 }
-.section__stories .swip__stories .feature_strories .item .inf__txt span {
+.section__stories .swip__stories .feature_strories .item .mash__txt span {
   color: #fd6b3b;
   font-size: 13px;
   display: block;
@@ -5097,7 +5097,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   -ms-transition: 0.25s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
   transition: 0.25s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
 }
-.section__stories .swip__stories .feature_strories .item .inf__txt h3 {
+.section__stories .swip__stories .feature_strories .item .mash__txt h3 {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
@@ -5109,7 +5109,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   -ms-transition: 0.45s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
   transition: 0.45s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
 }
-.section__stories .swip__stories .feature_strories .item .inf__txt time {
+.section__stories .swip__stories .feature_strories .item .mash__txt time {
   font-size: 13px;
   display: block;
   color: #ffffff;

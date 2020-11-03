@@ -27,7 +27,7 @@ if ($this->general_settings->emoji_reactions_type == 'png') {
 
 ?>
 
-<?php if (isset($_SESSION['inf_reaction_vote_count_' . $reactions->post_id]) && $_SESSION['inf_reaction_vote_count_' . $reactions->post_id] < 3): ?>
+<?php if (isset($_SESSION['mash_reaction_vote_count_' . $reactions->post_id]) && $_SESSION['mash_reaction_vote_count_' . $reactions->post_id] < 3): ?>
 	<div class="col-reaction col-reaction-like" onclick="make_reaction('<?php echo $reactions->post_id; ?>', '<?php echo $reaction; ?>', '<?php echo $emoji_lang; ?>');">
 		<div class="col-sm-12">
 			<div class="row">

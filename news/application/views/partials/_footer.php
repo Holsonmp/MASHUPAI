@@ -89,7 +89,7 @@
   			
 
 	<!-- End Footer Section -->
-	<?php if (!isset($_COOKIE["inf_cookies_warning"]) && $settings->cookies_warning): ?>
+	<?php if (!isset($_COOKIE["mash_cookies_warning"]) && $settings->cookies_warning): ?>
 		<div class="cookies-warning">
 			<div class="text"><?php echo $this->settings->cookies_warning_text; ?></div>
 			<a href="javascript:void(0)" onclick="hide_cookies_warning();" class="icon-cl"> <i class="icon-close"></i></a>

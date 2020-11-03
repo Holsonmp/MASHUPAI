@@ -219,9 +219,9 @@ class Post_model extends CI_Model
 	public function increase_post_hit($post)
 	{
 		if (!empty($post)):
-			if (!isset($_COOKIE['inf_post_' . $post->id])) :
+			if (!isset($_COOKIE['mash_post_' . $post->id])) :
 				//increase hit
-				helper_setcookie('inf_post_' . $post->id, '1');
+				helper_setcookie('mash_post_' . $post->id, '1');
 
 				$data = array(
 					'hit' => $post->hit + 1

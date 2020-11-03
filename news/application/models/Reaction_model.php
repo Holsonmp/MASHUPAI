@@ -7,13 +7,13 @@ class Reaction_model extends CI_Model
     public function save_reaction($post_id, $reaction)
     {
         if (is_reaction_voted($post_id, $reaction)) {
-            $_SESSION['inf_reaction_' . $reaction . '_' . $post_id] = '0';
-            $this->set_cookie_reaction('inf_reaction_' . $reaction . '_' . $post_id, '0');
+            $_SESSION['mash_reaction_' . $reaction . '_' . $post_id] = '0';
+            $this->set_cookie_reaction('mash_reaction_' . $reaction . '_' . $post_id, '0');
             $this->decrease_reaction_vote($post_id, $reaction);
             $this->decrease_post_vote_session($post_id);
         } else {
-            $_SESSION['inf_reaction_' . $reaction . '_' . $post_id] = '1';
-            $this->set_cookie_reaction('inf_reaction_' . $reaction . '_' . $post_id, '1');
+            $_SESSION['mash_reaction_' . $reaction . '_' . $post_id] = '1';
+            $this->set_cookie_reaction('mash_reaction_' . $reaction . '_' . $post_id, '1');
             $this->increase_reaction_vote($post_id, $reaction);
             $this->increase_post_vote_session($post_id);
         }
@@ -80,9 +80,9 @@ class Reaction_model extends CI_Model
     public function increase_post_vote_session($post_id)
     {
         //vote count
-        if (isset($_SESSION['inf_reaction_vote_count_' . $post_id])) {
-            $_SESSION['inf_reaction_vote_count_' . $post_id] = $_SESSION['inf_reaction_vote_count_' . $post_id] + 1;
-            $this->set_cookie_reaction('inf_reaction_vote_count_' . $post_id, $_SESSION['inf_reaction_vote_count_' . $post_id]);
+        if (isset($_SESSION['mash_reaction_vote_count_' . $post_id])) {
+            $_SESSION['mash_reaction_vote_count_' . $post_id] = $_SESSION['mash_reaction_vote_count_' . $post_id] + 1;
+            $this->set_cookie_reaction('mash_reaction_vote_count_' . $post_id, $_SESSION['mash_reaction_vote_count_' . $post_id]);
         }
     }
 
@@ -90,9 +90,9 @@ class Reaction_model extends CI_Model
     public function decrease_post_vote_session($post_id)
     {
         //vote count
-        if (isset($_SESSION['inf_reaction_vote_count_' . $post_id])) {
-            $_SESSION['inf_reaction_vote_count_' . $post_id] = $_SESSION['inf_reaction_vote_count_' . $post_id] - 1;
-            $this->set_cookie_reaction('inf_reaction_vote_count_' . $post_id, $_SESSION['inf_reaction_vote_count_' . $post_id]);
+        if (isset($_SESSION['mash_reaction_vote_count_' . $post_id])) {
+            $_SESSION['mash_reaction_vote_count_' . $post_id] = $_SESSION['mash_reaction_vote_count_' . $post_id] - 1;
+            $this->set_cookie_reaction('mash_reaction_vote_count_' . $post_id, $_SESSION['mash_reaction_vote_count_' . $post_id]);
         }
     }
 
@@ -100,52 +100,52 @@ class Reaction_model extends CI_Model
     public function set_voted_reactions_session($post_id)
     {
         //vote count
-        if (isset($_COOKIE['inf_reaction_vote_count_' . $post_id])) {
-            $_SESSION['inf_reaction_vote_count_' . $post_id] = $_COOKIE['inf_reaction_vote_count_' . $post_id];
+        if (isset($_COOKIE['mash_reaction_vote_count_' . $post_id])) {
+            $_SESSION['mash_reaction_vote_count_' . $post_id] = $_COOKIE['mash_reaction_vote_count_' . $post_id];
         } else {
-            $_SESSION['inf_reaction_vote_count_' . $post_id] = 0;
+            $_SESSION['mash_reaction_vote_count_' . $post_id] = 0;
         }
         //like
-        if (isset($_COOKIE['inf_reaction_like_' . $post_id]) && $_COOKIE['inf_reaction_like_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_like_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_like_' . $post_id]) && $_COOKIE['mash_reaction_like_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_like_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_like_' . $post_id] = '0';
+            $_SESSION['mash_reaction_like_' . $post_id] = '0';
         }
         //dislike
-        if (isset($_COOKIE['inf_reaction_dislike_' . $post_id]) && $_COOKIE['inf_reaction_dislike_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_dislike_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_dislike_' . $post_id]) && $_COOKIE['mash_reaction_dislike_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_dislike_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_dislike_' . $post_id] = '0';
+            $_SESSION['mash_reaction_dislike_' . $post_id] = '0';
         }
         //love
-        if (isset($_COOKIE['inf_reaction_love_' . $post_id]) && $_COOKIE['inf_reaction_love_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_love_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_love_' . $post_id]) && $_COOKIE['mash_reaction_love_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_love_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_love_' . $post_id] = '0';
+            $_SESSION['mash_reaction_love_' . $post_id] = '0';
         }
         //funny
-        if (isset($_COOKIE['inf_reaction_funny_' . $post_id]) && $_COOKIE['inf_reaction_funny_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_funny_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_funny_' . $post_id]) && $_COOKIE['mash_reaction_funny_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_funny_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_funny_' . $post_id] = '0';
+            $_SESSION['mash_reaction_funny_' . $post_id] = '0';
         }
         //angry
-        if (isset($_COOKIE['inf_reaction_angry_' . $post_id]) && $_COOKIE['inf_reaction_angry_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_angry_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_angry_' . $post_id]) && $_COOKIE['mash_reaction_angry_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_angry_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_angry_' . $post_id] = '0';
+            $_SESSION['mash_reaction_angry_' . $post_id] = '0';
         }
         //sad
-        if (isset($_COOKIE['inf_reaction_sad_' . $post_id]) && $_COOKIE['inf_reaction_sad_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_sad_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_sad_' . $post_id]) && $_COOKIE['mash_reaction_sad_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_sad_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_sad_' . $post_id] = '0';
+            $_SESSION['mash_reaction_sad_' . $post_id] = '0';
         }
         //wow
-        if (isset($_COOKIE['inf_reaction_wow_' . $post_id]) && $_COOKIE['inf_reaction_wow_' . $post_id] == '1') {
-            $_SESSION['inf_reaction_wow_' . $post_id] = '1';
+        if (isset($_COOKIE['mash_reaction_wow_' . $post_id]) && $_COOKIE['mash_reaction_wow_' . $post_id] == '1') {
+            $_SESSION['mash_reaction_wow_' . $post_id] = '1';
         } else {
-            $_SESSION['inf_reaction_wow_' . $post_id] = '0';
+            $_SESSION['mash_reaction_wow_' . $post_id] = '0';
         }
     }
 
