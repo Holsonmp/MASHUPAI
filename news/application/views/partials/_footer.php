@@ -56,7 +56,7 @@
 							<li><a href="<?php echo base_url(); ?>">Strategy</a></li>
 							<li><a href="<?php echo base_url(); ?>services">Services</a></li>
 							<li><a href="<?php echo base_url(); ?>about">Mission</a></li>
-							<li><a href="#">Process</a></li>
+							<li><a href="https://www.marilys.co/process">Process</a></li>
 						</ul>
 						</div>
 						<!-- /.widget -->
