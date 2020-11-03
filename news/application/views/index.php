@@ -105,7 +105,7 @@
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept14.png 1x, style/images/concept/concept14@2x.png 2x" alt="" /></figure>
             <h4>Social Media</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-            <div class="text-center"><a href="#" class="more">Learn more</a></div>
+            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a></div>
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
@@ -113,7 +113,7 @@
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept19.png 1x, style/images/concept/concept19@2x.png 2x" alt="" /></figure>
             <h4>Digital Marketing</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-            <div class="text-center"><a href="#" class="more">Learn more</a></div>
+            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a><</div>
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
@@ -121,7 +121,7 @@
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept18.png 1x, style/images/concept/concept18@2x.png 2x" alt="" /></figure>
             <h4>SEO Optimization</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-            <div class="text-center"><a href="#" class="more">Learn more</a></div>
+            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a><</div>
           </div>
           <!--/column -->
         </div>
@@ -164,7 +164,7 @@
             <div class="space20"></div>
             <p>Découvrez ce que vos clients pensent de vous, de vos services, comprenez leurs feedbacks et leur attachement à votre marque. Profitez de la puissance de l'intelligence artificielle pour exploiter au mieux mes données en votre possession.</p>
             <div class="space10"></div>
-            <a href="#" class="btn btn-yellow">More Details</a>
+            <a href="https://marilys.co" target="_blank" class="btn btn-yellow">Get started</a>
           </div>
           <!--/column -->
         </div>
@@ -183,7 +183,7 @@
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in egestas.</p>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et nascetur ridiculus.</p>
             <div class="space10"></div>
-            <a href="#" class="btn btn-red">More Details</a>
+            <a href="https://marilys.co" target="_blank" class="btn btn-red">Get started</a>
           </div>
           <!--/column -->
         </div>
