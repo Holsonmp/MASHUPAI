@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <div class="space80"></div>
     <!-- /.offcanvas-info -->
-    <div class="wrapper white-wrapper">
+    <div class="wrapper light-wrapper">
       <div class="container inner pt-80">
         <div class="row">
           <div class="col-lg-8">
