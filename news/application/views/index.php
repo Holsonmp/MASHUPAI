@@ -113,7 +113,7 @@
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept19.png 1x, style/images/concept/concept19@2x.png 2x" alt="" /></figure>
             <h4>Digital Marketing</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a><</div>
+            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a></div>
           </div>
           <!--/column -->
           <div class="space20 d-md-none"></div>
@@ -121,7 +121,7 @@
             <figure class="mb-30"><img src="#" srcset="<?php echo base_url(); ?>themes/style/images/concept/concept18.png 1x, style/images/concept/concept18@2x.png 2x" alt="" /></figure>
             <h4>SEO Optimization</h4>
             <p class="mb-15">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
-            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a><</div>
+            <div class="text-center"><a href="https://www.marilys.co/" target="_blank" class="more">Commencer</a></div>
           </div>
           <!--/column -->
         </div>
